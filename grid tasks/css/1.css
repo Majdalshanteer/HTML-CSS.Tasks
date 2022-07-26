@@ -1,0 +1,34 @@
+.container {
+    display: grid;
+    height:700px;
+    grid-template-rows: 10% 60% 30%;
+    grid-template-columns: 75% 25%;
+    grid-gap: 15px;
+   
+  }
+  
+  .first{
+    background-color: black;
+        grid-column: 1 / span 2;
+   
+
+  }
+  .second {
+   
+    background-color: #ffa500;
+    
+   
+  } 
+  .third {
+  
+   
+    background-color: #008000;
+   
+  } 
+
+ 
+
+  .fourth{
+    background-color: #0000ff;
+    grid-column: 1 / span 2;
+  }
