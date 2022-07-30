@@ -1,16 +1,17 @@
 .container {
     display: grid;
-    height:200px;
-    width: 600px;
-    grid-template-rows: 200px 200px 200px;
-    grid-gap: 10px 10px;
+   
+    width: 1200px;
+  
+    grid-template-rows: 240px 240px 240px;
+    grid-gap: 5px 5px;
 
-    grid-template-columns:200px 200px 200px;
+    grid-template-columns:500px 500px 500px;
     
     
    
   }
   img{
-    width: 200px;
-    height: 200px;
-  }
+    width: 500px;
+    height: 240px;
+  }3
