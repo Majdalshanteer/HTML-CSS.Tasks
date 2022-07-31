@@ -232,17 +232,17 @@ h3{
 }
 
 
+ 
+  @media (max-width:1000px){
 
-@media (max-width: 900px) {
 
-
-    .container { grid-template-columns: 35% 21.67% 21.67% 21.67%; }
+    .container { grid-template-columns: 25% 25% 25% 25%; }
 
     .nav{
         display: flex;
-       width: 80%;
+       width: 60%;
        justify-content: space-between;
-       margin-left: 2.8%;
+       margin-left: 3.5%;
        
       
     }
@@ -253,6 +253,8 @@ h3{
         margin-left: 1%;
        
     }
+  
+ 
     .two div{
         width:60%;
         height: 40%;
@@ -283,6 +285,7 @@ h3{
     
     .two .second{
      display: none;
+     
     }
     .four div,.five div,.six div,.seven div {
         width: 80%;
@@ -300,4 +303,129 @@ h3{
         width: 30%;
         
   }
-}
+}  
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+
+
+
+    .container { grid-template-columns: 60% ;
+        height: 600px;
+        grid-template-rows:60% ;
+       
+    }
+    .log{
+        height: 100px;
+        flex-wrap:wrap;
+  
+    }
+    .log img{
+        width: 6%;
+        height: 20%;
+        margin-right:1%;
+        margin-left: 2%;
+       
+    }
+   .log .facebook{
+        margin-left: 10%;
+    }
+    
+
+
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+       width: 80%;
+       font-size: small;
+       justify-content: space-between;
+       margin-left: 2.8%;}
+
+
+       .two{ flex-wrap: wrap;
+        justify-content: flex-start;
+        
+        height: 50px;
+
+    }
+    select{
+        width: 150px;
+        height: 60%;
+       
+       
+    }
+    .two .first{
+        display: none;
+    }
+    
+    .two .second{
+     display: none;
+         }
+    .two img{
+        display: none;
+             
+         }
+         .two div{
+            margin-left:10%;
+            width: 40%;
+            height:45%;
+        
+        
+        }
+        h1{
+     
+        
+            font-size: medium;
+        
+        }
+    
+    .three div{
+        width: 30%;
+        height: 20%;
+        margin-bottom: 20px;
+        
+  }
+  .three .last{
+    font-size: x-small;
+  
+  }
+
+  .four{
+ 
+    width: 100px;
+    height: 100px; }
+    .five{
+        width: 100px;
+        height: 100px;
+        margin-right: 20%;
+    }
+    .six{
+        width: 100px;
+        height: 100px;
+
+    }
+    .seven{
+        width: 200px;
+        height: 100px;
+        justify-content: center;
+    }
+
+  
+
+
+
+.four div,.five div,.six div,.seven div {
+   
+    
+   font-size: x-small;
+
+  
+   
+}}
